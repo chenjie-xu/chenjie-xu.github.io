@@ -150,8 +150,8 @@ p.lead {
 }
 
 section.resume-section {
-  padding-top: 2rem !important;
-  padding-bottom: 2rem !important;
+  padding-top: 4rem !important;
+  padding-bottom: 4rem !important;
   max-width: 75rem;
 }
 
@@ -170,8 +170,8 @@ section.resume-section .resume-item .resume-date {
 
 @media (min-width: 992px) {
   section.resume-section {
-    padding-top: 2rem !important;
-    padding-bottom: 2rem !important;
+    padding-top: 4rem !important;
+    padding-bottom: 4rem !important;
   }
 }
 
