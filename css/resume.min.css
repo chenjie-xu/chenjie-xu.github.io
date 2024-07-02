@@ -4,18 +4,61 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
  */
 
+/* Existing styles */
+
 body {
-  font-family: 'Crimson Text', serif;
+    background-color: #f8f9fa; /* Updated background color */
+    font-family: 'Crimson Text', serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #212529;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'EB Garamond', serif;
+    font-family: 'EB Garamond', serif;
+    font-weight: 700;
 }
 
-.navbar-brand, .nav-item, .subheading, .lead {
-  font-family: 'Crimson Text', serif;
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* New styles */
+
+.navbar {
+    background-color: #343a40; /* Changed navbar background color */
+}
+
+.navbar-brand {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.nav-link {
+    font-size: 1rem;
+    font-weight: 600;
 }
 
 .resume-section {
-  font-family: 'EB Garamond', serif;
+    padding: 3rem 0;
 }
+
+.resume-item {
+    margin-bottom: 3rem;
+}
+
+.resume-date {
+    font-size: 0.875rem;
+    color: #6c757d;
+}
+
+.text-primary {
+    color: #007bff !important;
+}
+
