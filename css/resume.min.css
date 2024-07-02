@@ -578,7 +578,7 @@ progress {
 
 .initialism {
   font-size: 0.875em;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 .blockquote {
@@ -10848,7 +10848,7 @@ h5,
 .h5,
 h6,
 .h6 {
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 h1, .h1 {
@@ -10874,7 +10874,7 @@ p.lead {
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
   letter-spacing: 0.05rem;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 #sideNav .navbar-toggler:focus {
   outline-color: #d48a6e;
